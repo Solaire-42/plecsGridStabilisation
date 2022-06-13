@@ -805,8 +805,31 @@ Plecs {
   CodeGenBaseName ""
   CodeGenOutputDir ""
   CodeGenExtraOpts ""
-  CodeGenTarget "Generic"
-  CodeGenTargetSettings ""
+  CodeGenTarget "PLECS RT Box 2"
+  CodeGenTargetSettings "AAAAfwAAAAAlUU1hcDxRU3RyaW5nLFFNYXA8UVN0cmluZyxRU3Rya"
+"W5nPiA+AAAAAAEAAAAcAFAATABFAEMAUwAgAFIAVAAgAEIAbwB4ACAAMgAAACAAAAAgAHgAYwBwAF"
+"MAbABhAHYAZQBJAGQAZQBuAHQAaQB0AHkAAAACADEAAAAQAHgAYwBwAFMAbABhAHYAZQAAAAAAAAA"
+"eAHMAeQBuAGMAaAByAG8AbgBpAHoAZQBUAGkAbQBlAAAAAgAwAAAAGABzAHQAYQByAHQAdQBwAFMA"
+"RgBQAF8ASAAAAAIAMAAAABgAcwB0AGEAcgB0AHUAcABTAEYAUABfAEcAAAACADAAAAAYAHMAdABhA"
+"HIAdAB1AHAAUwBGAFAAXwBGAAAAAgAwAAAAGABzAHQAYQByAHQAdQBwAFMARgBQAF8ARQAAAAIAMA"
+"AAABgAcwB0AGEAcgB0AHUAcABTAEYAUABfAEQAAAACADAAAAAYAHMAdABhAHIAdAB1AHAAUwBGAFA"
+"AXwBDAAAAAgAwAAAAGABzAHQAYQByAHQAdQBwAFMARgBQAF8AQgAAAAIAMAAAABgAcwB0AGEAcgB0"
+"AHUAcABTAEYAUABfAEEAAAACADAAAAAaAHMAYQBtAHAAbABpAG4AZwBEAGUAbABhAHkAAAACADAAA"
+"AAYAG0AYQB4AF8AbwB2AGUAcgByAHUAbgBzAAAAAgA1AAAAEgBtAGEAcwB0AGUAcgBTAEYAUAAAAA"
+"IAMQAAABIAZQBuAGEAYgBsAGUAWABDAFAAAAACADAAAAAkAGQAaQBnAGkAdABhAGwATwB1AHQAcAB"
+"1AHQATABlAHYAZQBsAAAAAgAxAAAAEABjAGEAbgAyAFQAeABSAHgAAAACADEAAAAeAGMAYQBuADIA"
+"VABlAHIAbQBpAG4AYQB0AGkAbwBuAAAAAgAyAAAAIgBjAGEAbgAyAFIAZQBjAG8AdgBlAHIAeQBEA"
+"GUAbABhAHkAAAACADAAAAAUAGMAYQBuADIARQBuAGEAYgBsAGUAAAACADAAAAAQAGMAYQBuADIAQg"
+"BhAHUAZAAAAAwANQAwADAAMAAwADAAAAAQAGMAYQBuADEAVAB4AFIAeAAAAAIAMQAAAB4AYwBhAG4"
+"AMQBUAGUAcgBtAGkAbgBhAHQAaQBvAG4AAAACADIAAAAiAGMAYQBuADEAUgBlAGMAbwB2AGUAcgB5"
+"AEQAZQBsAGEAeQAAAAIAMAAAABQAYwBhAG4AMQBFAG4AYQBiAGwAZQAAAAIAMAAAABAAYwBhAG4AM"
+"QBCAGEAdQBkAAAADAA1ADAAMAAwADAAMAAAABwAYQBuAGEAbABvAGcAUwBhAG0AcABsAGkAbgBnAA"
+"AAAgAxAAAAIgBhAG4AYQBsAG8AZwBPAHUAdABwAHUAdABSAGEAbgBnAGUAAAACADEAAAAgAGEAbgB"
+"hAGwAbwBnAEkAbgBwAHUAdABSAGEAbgBnAGUAAAACADEAAABKAFUAUwBFAF8ARABBAFQAQQBfAFQA"
+"WQBQAEUAUwBfAEYATwBSAF8AVABVAE4AQQBCAEwARQBfAFAAQQBSAEEATQBFAFQARQBSAFMAAAACA"
+"DEAAAAaAFQAQQBSAEcARQBUAF8ARABFAFYASQBDAEUAAAAwAHIAdABiAG8AeAAtADIAMABiADAAZg"
+"A3ADAANQA4ADQAYwAwAC4AbABvAGMAYQBsAAAAGgBFAFgAVABFAFIATgBBAEwAXwBNAE8ARABFAAA"
+"AAgAx"
   ExtendedMatrixPrecision "1"
   MatrixSignificanceCheck "2"
   EnableStateSpaceSplitting "2"
@@ -818,8 +841,8 @@ Plecs {
   ScriptsDialogGeometry "[764 395 446 243]"
   ScriptsDialogSplitterPos "100"
   Schematic {
-    Location      [-1920, 23; 0, 985]
-    ZoomFactor    1.30957
+    Location      [1680, 23; 2960, 929]
+    ZoomFactor    1.14436
     SliderPosition [0, 0]
     ShowBrowser   off
     BrowserWidth  143
@@ -16466,7 +16489,7 @@ Plecs {
         Direction     down
       }
       Schematic {
-        Location      [1920, 23; 3840, 985]
+        Location      [1680, 23; 2960, 929]
         ZoomFactor    1.14436
         SliderPosition [0, 0]
         ShowBrowser   off
@@ -17239,7 +17262,7 @@ Plecs {
           SrcComponent  "Components/Control/Sources/Ramp"
           Name          "Sonnen-\neinstrahlung"
           Show          on
-          Position      [870, 230]
+          Position      [905, 175]
           Direction     down
           Flipped       on
           Frame         [-15, -15; 15, 15]
@@ -17269,427 +17292,6 @@ Plecs {
             Type          Output
             Position      [19, 0]
             Direction     right
-          }
-        }
-        Component {
-          Type          Subsystem
-          Name          "PV1"
-          Show          off
-          Position      [780, 150]
-          Direction     left
-          Flipped       off
-          Frame         [-20, -10; 20, 10]
-          LabelPosition [0, -13]
-          LabelAlign    down
-          SampleTime    "-1"
-          CodeGenDiscretizationMethod "2"
-          CodeGenTarget "Generic"
-          MaskType      "PV String"
-          MaskDisplay   "line([-10 0 10], [-20 -7 -20])"
-          MaskIconFrame on
-          MaskIconOpaque on
-          MaskIconRotates on
-          Parameter {
-            Variable      "n_ser"
-            Prompt        "Number of series connection"
-            Type          FreeText
-            Value         "20"
-            Show          off
-            Tunable       off
-            TabName       ""
-          }
-          Parameter {
-            Variable      "n_par"
-            Prompt        "Number of parallel connection"
-            Type          FreeText
-            Value         "2"
-            Show          off
-            Tunable       off
-            TabName       ""
-          }
-          Parameter {
-            Variable      "C"
-            Prompt        "Cout"
-            Type          FreeText
-            Value         "1e-6"
-            Show          off
-            Tunable       off
-            TabName       ""
-          }
-          Parameter {
-            Variable      "v_init"
-            Prompt        "Vout init"
-            Type          FreeText
-            Value         "200"
-            Show          off
-            Tunable       off
-            TabName       ""
-          }
-          Parameter {
-            Variable      "PV_I"
-            Prompt        "PV Characteristics"
-            Type          FreeText
-            Value         "PV_I"
-            Show          off
-            Tunable       off
-            TabName       ""
-          }
-          Terminal {
-            Type          Port
-            Position      [0, -25]
-            Direction     up
-          }
-          Terminal {
-            Type          Port
-            Position      [0, 25]
-            Direction     down
-          }
-          Terminal {
-            Type          Input
-            Position      [-10, 0]
-            Direction     left
-          }
-          Schematic {
-            Location      [98, 207; 561, 449]
-            ZoomFactor    1
-            SliderPosition [0, 0]
-            ShowBrowser   off
-            BrowserWidth  100
-            Component {
-              Type          Capacitor
-              Name          "C1"
-              Show          on
-              Position      [355, 155]
-              Direction     down
-              Flipped       on
-              Parameter {
-                Variable      "C"
-                Value         "C"
-                Show          off
-              }
-              Parameter {
-                Variable      "v_init"
-                Value         "v_init"
-                Show          off
-              }
-            }
-            Component {
-              Type          Ammeter
-              Name          "I_PV"
-              Show          off
-              Position      [295, 105]
-              Direction     left
-              Flipped       off
-            }
-            Component {
-              Type          SignalMux
-              Name          "CMux"
-              Show          off
-              Position      [320, 60]
-              Direction     right
-              Flipped       off
-              Parameter {
-                Variable      "Width"
-                Value         "2"
-                Show          off
-              }
-            }
-            Component {
-              Type          CurrentSource
-              Name          "I1"
-              Show          on
-              Position      [200, 150]
-              Direction     down
-              Flipped       on
-              Parameter {
-                Variable      "DiscretizationBehavior"
-                Value         "2"
-                Show          off
-              }
-              Parameter {
-                Variable      "StateSpaceInlining"
-                Value         "2"
-                Show          off
-              }
-            }
-            Component {
-              Type          Voltmeter
-              Name          "V1"
-              Show          on
-              Position      [260, 150]
-              Direction     down
-              Flipped       on
-            }
-            Component {
-              Type          Function
-              Name          "Power"
-              Show          on
-              Position      [380, 60]
-              Direction     right
-              Flipped       off
-              Frame         [-20, -10; 20, 10]
-              LabelPosition [0, 13]
-              LabelAlign    up
-              Parameter {
-                Variable      "f(u)"
-                Value         "u[1]*u[2]"
-                Show          off
-              }
-            }
-            Component {
-              Type          Port
-              Name          "+"
-              Show          on
-              Position      [397, 105]
-              Direction     right
-              Flipped       on
-              Parameter {
-                Variable      "Index"
-                Value         "1"
-                Show          on
-              }
-              Parameter {
-                Variable      "Width"
-                Value         "-1"
-                Show          off
-              }
-            }
-            Component {
-              Type          Port
-              Name          "-"
-              Show          on
-              Position      [397, 190]
-              Direction     right
-              Flipped       on
-              Parameter {
-                Variable      "Index"
-                Value         "2"
-                Show          on
-              }
-              Parameter {
-                Variable      "Width"
-                Value         "-1"
-                Show          off
-              }
-            }
-            Component {
-              Type          Input
-              Name          "Sun"
-              Show          on
-              Position      [40, 155]
-              Direction     right
-              Flipped       off
-              Parameter {
-                Variable      "Index"
-                Value         "3"
-                Show          on
-              }
-              Parameter {
-                Variable      "Width"
-                Value         "-1"
-                Show          off
-              }
-            }
-            Component {
-              Type          Function
-              Name          "1/num_panels"
-              Show          on
-              Position      [150, 55]
-              Direction     left
-              Flipped       off
-              Frame         [-20, -10; 20, 10]
-              LabelPosition [0, -13]
-              LabelAlign    down
-              Parameter {
-                Variable      "f(u)"
-                Value         "u[1]/n_ser"
-                Show          off
-              }
-            }
-            Component {
-              Type          Lookup2D
-              Name          "2D-Table"
-              Show          on
-              Position      [100, 150]
-              Direction     right
-              Flipped       off
-              Parameter {
-                Variable      "x"
-                Value         "[0:0.05:25]"
-                Show          off
-              }
-              Parameter {
-                Variable      "y"
-                Value         "[0:0.1:1]"
-                Show          off
-              }
-              Parameter {
-                Variable      "f(x,y)"
-                Value         "PV_I"
-                Show          off
-              }
-              Parameter {
-                Variable      "ZeroCrossingSignals"
-                Value         "1"
-                Show          off
-              }
-            }
-            Component {
-              Type          Gain
-              Name          "Gain"
-              Show          on
-              Position      [155, 150]
-              Direction     right
-              Flipped       off
-              Parameter {
-                Variable      "K"
-                Value         "n_par"
-                Show          off
-              }
-              Parameter {
-                Variable      "Multiplication"
-                Value         "1"
-                Show          off
-              }
-              Parameter {
-                Variable      "DataType"
-                Value         "11"
-                Show          off
-              }
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "I_PV"
-              SrcTerminal   3
-              Points        [295, 65]
-              DstComponent  "CMux"
-              DstTerminal   3
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "Sun"
-              SrcTerminal   1
-              DstComponent  "2D-Table"
-              DstTerminal   2
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "CMux"
-              SrcTerminal   1
-              DstComponent  "Power"
-              DstTerminal   1
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "1/num_panels"
-              SrcTerminal   2
-              Points        [60, 55; 60, 145]
-              DstComponent  "2D-Table"
-              DstTerminal   1
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "V1"
-              SrcTerminal   3
-              Points        [235, 150; 235, 55]
-              Branch {
-                DstComponent  "CMux"
-                DstTerminal   2
-              }
-              Branch {
-                DstComponent  "1/num_panels"
-                DstTerminal   1
-              }
-            }
-            Connection {
-              Type          Wire
-              SrcComponent  "I_PV"
-              SrcTerminal   1
-              Points        [260, 105]
-              Branch {
-                Points        [200, 105]
-                DstComponent  "I1"
-                DstTerminal   2
-              }
-              Branch {
-                DstComponent  "V1"
-                DstTerminal   1
-              }
-            }
-            Connection {
-              Type          Wire
-              SrcComponent  "V1"
-              SrcTerminal   2
-              Points        [260, 190]
-              Branch {
-                Points        [200, 190]
-                DstComponent  "I1"
-                DstTerminal   1
-              }
-              Branch {
-                Points        [355, 190]
-                Branch {
-                  DstComponent  "-"
-                  DstTerminal   1
-                }
-                Branch {
-                  DstComponent  "C1"
-                  DstTerminal   2
-                }
-              }
-            }
-            Connection {
-              Type          Wire
-              SrcComponent  "I_PV"
-              SrcTerminal   2
-              Points        [355, 105]
-              Branch {
-                DstComponent  "+"
-                DstTerminal   1
-              }
-              Branch {
-                DstComponent  "C1"
-                DstTerminal   1
-              }
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "2D-Table"
-              SrcTerminal   3
-              DstComponent  "Gain"
-              DstTerminal   1
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "Gain"
-              SrcTerminal   2
-              DstComponent  "I1"
-              DstTerminal   3
-            }
-          }
-          MaskProbe {
-            Name          "Voltage (V)"
-            Probe {
-              Component     "V1"
-              Path          ""
-              Signals       {"Measured voltage"}
-            }
-          }
-          MaskProbe {
-            Name          "Current (A)"
-            Probe {
-              Component     "I_PV"
-              Path          ""
-              Signals       {"Measured current"}
-            }
-          }
-          MaskProbe {
-            Name          "Power (W)"
-            Probe {
-              Component     "Power"
-              Path          ""
-              Signals       {"Output"}
-            }
           }
         }
         Component {
@@ -23323,1269 +22925,6 @@ Plecs {
         }
         Component {
           Type          Subsystem
-          Name          "PV2"
-          Show          off
-          Position      [780, 210]
-          Direction     right
-          Flipped       on
-          Frame         [-20, -10; 20, 10]
-          LabelPosition [0, 13]
-          LabelAlign    up
-          SampleTime    "-1"
-          CodeGenDiscretizationMethod "2"
-          CodeGenTarget "Generic"
-          MaskType      "PV String"
-          MaskDisplay   "line([-10 0 10], [-20 -7 -20])"
-          MaskIconFrame on
-          MaskIconOpaque on
-          MaskIconRotates on
-          Parameter {
-            Variable      "n_ser"
-            Prompt        "Number of series connection"
-            Type          FreeText
-            Value         "20"
-            Show          off
-            Tunable       off
-            TabName       ""
-          }
-          Parameter {
-            Variable      "n_par"
-            Prompt        "Number of parallel connection"
-            Type          FreeText
-            Value         "2"
-            Show          off
-            Tunable       off
-            TabName       ""
-          }
-          Parameter {
-            Variable      "C"
-            Prompt        "Cout"
-            Type          FreeText
-            Value         "1e-6"
-            Show          off
-            Tunable       off
-            TabName       ""
-          }
-          Parameter {
-            Variable      "v_init"
-            Prompt        "Vout init"
-            Type          FreeText
-            Value         "200"
-            Show          off
-            Tunable       off
-            TabName       ""
-          }
-          Parameter {
-            Variable      "PV_I"
-            Prompt        "PV Characteristics"
-            Type          FreeText
-            Value         "PV_I"
-            Show          off
-            Tunable       off
-            TabName       ""
-          }
-          Terminal {
-            Type          Port
-            Position      [0, -25]
-            Direction     up
-          }
-          Terminal {
-            Type          Port
-            Position      [0, 25]
-            Direction     down
-          }
-          Terminal {
-            Type          Input
-            Position      [-10, 0]
-            Direction     left
-          }
-          Schematic {
-            Location      [98, 207; 561, 449]
-            ZoomFactor    1
-            SliderPosition [0, 0]
-            ShowBrowser   off
-            BrowserWidth  100
-            Component {
-              Type          Capacitor
-              Name          "C1"
-              Show          on
-              Position      [355, 155]
-              Direction     down
-              Flipped       on
-              Parameter {
-                Variable      "C"
-                Value         "C"
-                Show          off
-              }
-              Parameter {
-                Variable      "v_init"
-                Value         "v_init"
-                Show          off
-              }
-            }
-            Component {
-              Type          Ammeter
-              Name          "I_PV"
-              Show          off
-              Position      [295, 105]
-              Direction     left
-              Flipped       off
-            }
-            Component {
-              Type          SignalMux
-              Name          "CMux"
-              Show          off
-              Position      [320, 60]
-              Direction     right
-              Flipped       off
-              Parameter {
-                Variable      "Width"
-                Value         "2"
-                Show          off
-              }
-            }
-            Component {
-              Type          CurrentSource
-              Name          "I1"
-              Show          on
-              Position      [200, 150]
-              Direction     down
-              Flipped       on
-              Parameter {
-                Variable      "DiscretizationBehavior"
-                Value         "2"
-                Show          off
-              }
-              Parameter {
-                Variable      "StateSpaceInlining"
-                Value         "2"
-                Show          off
-              }
-            }
-            Component {
-              Type          Voltmeter
-              Name          "V1"
-              Show          on
-              Position      [260, 150]
-              Direction     down
-              Flipped       on
-            }
-            Component {
-              Type          Function
-              Name          "Power"
-              Show          on
-              Position      [380, 60]
-              Direction     right
-              Flipped       off
-              Frame         [-20, -10; 20, 10]
-              LabelPosition [0, 13]
-              LabelAlign    up
-              Parameter {
-                Variable      "f(u)"
-                Value         "u[1]*u[2]"
-                Show          off
-              }
-            }
-            Component {
-              Type          Port
-              Name          "+"
-              Show          on
-              Position      [397, 105]
-              Direction     right
-              Flipped       on
-              Parameter {
-                Variable      "Index"
-                Value         "1"
-                Show          on
-              }
-              Parameter {
-                Variable      "Width"
-                Value         "-1"
-                Show          off
-              }
-            }
-            Component {
-              Type          Port
-              Name          "-"
-              Show          on
-              Position      [397, 190]
-              Direction     right
-              Flipped       on
-              Parameter {
-                Variable      "Index"
-                Value         "2"
-                Show          on
-              }
-              Parameter {
-                Variable      "Width"
-                Value         "-1"
-                Show          off
-              }
-            }
-            Component {
-              Type          Input
-              Name          "Sun"
-              Show          on
-              Position      [40, 155]
-              Direction     right
-              Flipped       off
-              Parameter {
-                Variable      "Index"
-                Value         "3"
-                Show          on
-              }
-              Parameter {
-                Variable      "Width"
-                Value         "-1"
-                Show          off
-              }
-            }
-            Component {
-              Type          Function
-              Name          "1/num_panels"
-              Show          on
-              Position      [150, 55]
-              Direction     left
-              Flipped       off
-              Frame         [-20, -10; 20, 10]
-              LabelPosition [0, -13]
-              LabelAlign    down
-              Parameter {
-                Variable      "f(u)"
-                Value         "u[1]/n_ser"
-                Show          off
-              }
-            }
-            Component {
-              Type          Lookup2D
-              Name          "2D-Table"
-              Show          on
-              Position      [100, 150]
-              Direction     right
-              Flipped       off
-              Parameter {
-                Variable      "x"
-                Value         "[0:0.05:25]"
-                Show          off
-              }
-              Parameter {
-                Variable      "y"
-                Value         "[0:0.1:1]"
-                Show          off
-              }
-              Parameter {
-                Variable      "f(x,y)"
-                Value         "PV_I"
-                Show          off
-              }
-              Parameter {
-                Variable      "ZeroCrossingSignals"
-                Value         "1"
-                Show          off
-              }
-            }
-            Component {
-              Type          Gain
-              Name          "Gain"
-              Show          on
-              Position      [155, 150]
-              Direction     right
-              Flipped       off
-              Parameter {
-                Variable      "K"
-                Value         "n_par"
-                Show          off
-              }
-              Parameter {
-                Variable      "Multiplication"
-                Value         "1"
-                Show          off
-              }
-              Parameter {
-                Variable      "DataType"
-                Value         "11"
-                Show          off
-              }
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "I_PV"
-              SrcTerminal   3
-              Points        [295, 65]
-              DstComponent  "CMux"
-              DstTerminal   3
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "Sun"
-              SrcTerminal   1
-              DstComponent  "2D-Table"
-              DstTerminal   2
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "CMux"
-              SrcTerminal   1
-              DstComponent  "Power"
-              DstTerminal   1
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "1/num_panels"
-              SrcTerminal   2
-              Points        [60, 55; 60, 145]
-              DstComponent  "2D-Table"
-              DstTerminal   1
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "V1"
-              SrcTerminal   3
-              Points        [235, 150; 235, 55]
-              Branch {
-                DstComponent  "CMux"
-                DstTerminal   2
-              }
-              Branch {
-                DstComponent  "1/num_panels"
-                DstTerminal   1
-              }
-            }
-            Connection {
-              Type          Wire
-              SrcComponent  "I_PV"
-              SrcTerminal   1
-              Points        [260, 105]
-              Branch {
-                Points        [200, 105]
-                DstComponent  "I1"
-                DstTerminal   2
-              }
-              Branch {
-                DstComponent  "V1"
-                DstTerminal   1
-              }
-            }
-            Connection {
-              Type          Wire
-              SrcComponent  "V1"
-              SrcTerminal   2
-              Points        [260, 190]
-              Branch {
-                Points        [200, 190]
-                DstComponent  "I1"
-                DstTerminal   1
-              }
-              Branch {
-                Points        [355, 190]
-                Branch {
-                  DstComponent  "-"
-                  DstTerminal   1
-                }
-                Branch {
-                  DstComponent  "C1"
-                  DstTerminal   2
-                }
-              }
-            }
-            Connection {
-              Type          Wire
-              SrcComponent  "I_PV"
-              SrcTerminal   2
-              Points        [355, 105]
-              Branch {
-                DstComponent  "+"
-                DstTerminal   1
-              }
-              Branch {
-                DstComponent  "C1"
-                DstTerminal   1
-              }
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "2D-Table"
-              SrcTerminal   3
-              DstComponent  "Gain"
-              DstTerminal   1
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "Gain"
-              SrcTerminal   2
-              DstComponent  "I1"
-              DstTerminal   3
-            }
-          }
-          MaskProbe {
-            Name          "Voltage (V)"
-            Probe {
-              Component     "V1"
-              Path          ""
-              Signals       {"Measured voltage"}
-            }
-          }
-          MaskProbe {
-            Name          "Current (A)"
-            Probe {
-              Component     "I_PV"
-              Path          ""
-              Signals       {"Measured current"}
-            }
-          }
-          MaskProbe {
-            Name          "Power (W)"
-            Probe {
-              Component     "Power"
-              Path          ""
-              Signals       {"Output"}
-            }
-          }
-        }
-        Component {
-          Type          Subsystem
-          Name          "PV3"
-          Show          off
-          Position      [780, 250]
-          Direction     left
-          Flipped       on
-          Frame         [-20, -10; 20, 10]
-          LabelPosition [0, -13]
-          LabelAlign    down
-          SampleTime    "-1"
-          CodeGenDiscretizationMethod "2"
-          CodeGenTarget "Generic"
-          MaskType      "PV String"
-          MaskDisplay   "line([-10 0 10], [-20 -7 -20])"
-          MaskIconFrame on
-          MaskIconOpaque on
-          MaskIconRotates on
-          Parameter {
-            Variable      "n_ser"
-            Prompt        "Number of series connection"
-            Type          FreeText
-            Value         "20"
-            Show          off
-            Tunable       off
-            TabName       ""
-          }
-          Parameter {
-            Variable      "n_par"
-            Prompt        "Number of parallel connection"
-            Type          FreeText
-            Value         "2"
-            Show          off
-            Tunable       off
-            TabName       ""
-          }
-          Parameter {
-            Variable      "C"
-            Prompt        "Cout"
-            Type          FreeText
-            Value         "1e-6"
-            Show          off
-            Tunable       off
-            TabName       ""
-          }
-          Parameter {
-            Variable      "v_init"
-            Prompt        "Vout init"
-            Type          FreeText
-            Value         "200"
-            Show          off
-            Tunable       off
-            TabName       ""
-          }
-          Parameter {
-            Variable      "PV_I"
-            Prompt        "PV Characteristics"
-            Type          FreeText
-            Value         "PV_I"
-            Show          off
-            Tunable       off
-            TabName       ""
-          }
-          Terminal {
-            Type          Port
-            Position      [0, -25]
-            Direction     up
-          }
-          Terminal {
-            Type          Port
-            Position      [0, 25]
-            Direction     down
-          }
-          Terminal {
-            Type          Input
-            Position      [-10, 0]
-            Direction     left
-          }
-          Schematic {
-            Location      [98, 207; 561, 449]
-            ZoomFactor    1
-            SliderPosition [0, 0]
-            ShowBrowser   off
-            BrowserWidth  100
-            Component {
-              Type          Capacitor
-              Name          "C1"
-              Show          on
-              Position      [355, 155]
-              Direction     down
-              Flipped       on
-              Parameter {
-                Variable      "C"
-                Value         "C"
-                Show          off
-              }
-              Parameter {
-                Variable      "v_init"
-                Value         "v_init"
-                Show          off
-              }
-            }
-            Component {
-              Type          Ammeter
-              Name          "I_PV"
-              Show          off
-              Position      [295, 105]
-              Direction     left
-              Flipped       off
-            }
-            Component {
-              Type          SignalMux
-              Name          "CMux"
-              Show          off
-              Position      [320, 60]
-              Direction     right
-              Flipped       off
-              Parameter {
-                Variable      "Width"
-                Value         "2"
-                Show          off
-              }
-            }
-            Component {
-              Type          CurrentSource
-              Name          "I1"
-              Show          on
-              Position      [200, 150]
-              Direction     down
-              Flipped       on
-              Parameter {
-                Variable      "DiscretizationBehavior"
-                Value         "2"
-                Show          off
-              }
-              Parameter {
-                Variable      "StateSpaceInlining"
-                Value         "2"
-                Show          off
-              }
-            }
-            Component {
-              Type          Voltmeter
-              Name          "V1"
-              Show          on
-              Position      [260, 150]
-              Direction     down
-              Flipped       on
-            }
-            Component {
-              Type          Function
-              Name          "Power"
-              Show          on
-              Position      [380, 60]
-              Direction     right
-              Flipped       off
-              Frame         [-20, -10; 20, 10]
-              LabelPosition [0, 13]
-              LabelAlign    up
-              Parameter {
-                Variable      "f(u)"
-                Value         "u[1]*u[2]"
-                Show          off
-              }
-            }
-            Component {
-              Type          Port
-              Name          "+"
-              Show          on
-              Position      [397, 105]
-              Direction     right
-              Flipped       on
-              Parameter {
-                Variable      "Index"
-                Value         "1"
-                Show          on
-              }
-              Parameter {
-                Variable      "Width"
-                Value         "-1"
-                Show          off
-              }
-            }
-            Component {
-              Type          Port
-              Name          "-"
-              Show          on
-              Position      [397, 190]
-              Direction     right
-              Flipped       on
-              Parameter {
-                Variable      "Index"
-                Value         "2"
-                Show          on
-              }
-              Parameter {
-                Variable      "Width"
-                Value         "-1"
-                Show          off
-              }
-            }
-            Component {
-              Type          Input
-              Name          "Sun"
-              Show          on
-              Position      [40, 155]
-              Direction     right
-              Flipped       off
-              Parameter {
-                Variable      "Index"
-                Value         "3"
-                Show          on
-              }
-              Parameter {
-                Variable      "Width"
-                Value         "-1"
-                Show          off
-              }
-            }
-            Component {
-              Type          Function
-              Name          "1/num_panels"
-              Show          on
-              Position      [150, 55]
-              Direction     left
-              Flipped       off
-              Frame         [-20, -10; 20, 10]
-              LabelPosition [0, -13]
-              LabelAlign    down
-              Parameter {
-                Variable      "f(u)"
-                Value         "u[1]/n_ser"
-                Show          off
-              }
-            }
-            Component {
-              Type          Lookup2D
-              Name          "2D-Table"
-              Show          on
-              Position      [100, 150]
-              Direction     right
-              Flipped       off
-              Parameter {
-                Variable      "x"
-                Value         "[0:0.05:25]"
-                Show          off
-              }
-              Parameter {
-                Variable      "y"
-                Value         "[0:0.1:1]"
-                Show          off
-              }
-              Parameter {
-                Variable      "f(x,y)"
-                Value         "PV_I"
-                Show          off
-              }
-              Parameter {
-                Variable      "ZeroCrossingSignals"
-                Value         "1"
-                Show          off
-              }
-            }
-            Component {
-              Type          Gain
-              Name          "Gain"
-              Show          on
-              Position      [155, 150]
-              Direction     right
-              Flipped       off
-              Parameter {
-                Variable      "K"
-                Value         "n_par"
-                Show          off
-              }
-              Parameter {
-                Variable      "Multiplication"
-                Value         "1"
-                Show          off
-              }
-              Parameter {
-                Variable      "DataType"
-                Value         "11"
-                Show          off
-              }
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "I_PV"
-              SrcTerminal   3
-              Points        [295, 65]
-              DstComponent  "CMux"
-              DstTerminal   3
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "Sun"
-              SrcTerminal   1
-              DstComponent  "2D-Table"
-              DstTerminal   2
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "CMux"
-              SrcTerminal   1
-              DstComponent  "Power"
-              DstTerminal   1
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "1/num_panels"
-              SrcTerminal   2
-              Points        [60, 55; 60, 145]
-              DstComponent  "2D-Table"
-              DstTerminal   1
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "V1"
-              SrcTerminal   3
-              Points        [235, 150; 235, 55]
-              Branch {
-                DstComponent  "CMux"
-                DstTerminal   2
-              }
-              Branch {
-                DstComponent  "1/num_panels"
-                DstTerminal   1
-              }
-            }
-            Connection {
-              Type          Wire
-              SrcComponent  "I_PV"
-              SrcTerminal   1
-              Points        [260, 105]
-              Branch {
-                Points        [200, 105]
-                DstComponent  "I1"
-                DstTerminal   2
-              }
-              Branch {
-                DstComponent  "V1"
-                DstTerminal   1
-              }
-            }
-            Connection {
-              Type          Wire
-              SrcComponent  "V1"
-              SrcTerminal   2
-              Points        [260, 190]
-              Branch {
-                Points        [200, 190]
-                DstComponent  "I1"
-                DstTerminal   1
-              }
-              Branch {
-                Points        [355, 190]
-                Branch {
-                  DstComponent  "-"
-                  DstTerminal   1
-                }
-                Branch {
-                  DstComponent  "C1"
-                  DstTerminal   2
-                }
-              }
-            }
-            Connection {
-              Type          Wire
-              SrcComponent  "I_PV"
-              SrcTerminal   2
-              Points        [355, 105]
-              Branch {
-                DstComponent  "+"
-                DstTerminal   1
-              }
-              Branch {
-                DstComponent  "C1"
-                DstTerminal   1
-              }
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "2D-Table"
-              SrcTerminal   3
-              DstComponent  "Gain"
-              DstTerminal   1
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "Gain"
-              SrcTerminal   2
-              DstComponent  "I1"
-              DstTerminal   3
-            }
-          }
-          MaskProbe {
-            Name          "Voltage (V)"
-            Probe {
-              Component     "V1"
-              Path          ""
-              Signals       {"Measured voltage"}
-            }
-          }
-          MaskProbe {
-            Name          "Current (A)"
-            Probe {
-              Component     "I_PV"
-              Path          ""
-              Signals       {"Measured current"}
-            }
-          }
-          MaskProbe {
-            Name          "Power (W)"
-            Probe {
-              Component     "Power"
-              Path          ""
-              Signals       {"Output"}
-            }
-          }
-        }
-        Component {
-          Type          Subsystem
-          Name          "PV4"
-          Show          off
-          Position      [780, 310]
-          Direction     right
-          Flipped       off
-          Frame         [-20, -10; 20, 10]
-          LabelPosition [0, 13]
-          LabelAlign    up
-          SampleTime    "-1"
-          CodeGenDiscretizationMethod "2"
-          CodeGenTarget "Generic"
-          MaskType      "PV String"
-          MaskDisplay   "line([-10 0 10], [-20 -7 -20])"
-          MaskIconFrame on
-          MaskIconOpaque on
-          MaskIconRotates on
-          Parameter {
-            Variable      "n_ser"
-            Prompt        "Number of series connection"
-            Type          FreeText
-            Value         "20"
-            Show          off
-            Tunable       off
-            TabName       ""
-          }
-          Parameter {
-            Variable      "n_par"
-            Prompt        "Number of parallel connection"
-            Type          FreeText
-            Value         "2"
-            Show          off
-            Tunable       off
-            TabName       ""
-          }
-          Parameter {
-            Variable      "C"
-            Prompt        "Cout"
-            Type          FreeText
-            Value         "1e-6"
-            Show          off
-            Tunable       off
-            TabName       ""
-          }
-          Parameter {
-            Variable      "v_init"
-            Prompt        "Vout init"
-            Type          FreeText
-            Value         "200"
-            Show          off
-            Tunable       off
-            TabName       ""
-          }
-          Parameter {
-            Variable      "PV_I"
-            Prompt        "PV Characteristics"
-            Type          FreeText
-            Value         "PV_I"
-            Show          off
-            Tunable       off
-            TabName       ""
-          }
-          Terminal {
-            Type          Port
-            Position      [0, -25]
-            Direction     up
-          }
-          Terminal {
-            Type          Port
-            Position      [0, 25]
-            Direction     down
-          }
-          Terminal {
-            Type          Input
-            Position      [-10, 0]
-            Direction     left
-          }
-          Schematic {
-            Location      [98, 207; 561, 449]
-            ZoomFactor    1
-            SliderPosition [0, 0]
-            ShowBrowser   off
-            BrowserWidth  100
-            Component {
-              Type          Capacitor
-              Name          "C1"
-              Show          on
-              Position      [355, 155]
-              Direction     down
-              Flipped       on
-              Parameter {
-                Variable      "C"
-                Value         "C"
-                Show          off
-              }
-              Parameter {
-                Variable      "v_init"
-                Value         "v_init"
-                Show          off
-              }
-            }
-            Component {
-              Type          Ammeter
-              Name          "I_PV"
-              Show          off
-              Position      [295, 105]
-              Direction     left
-              Flipped       off
-            }
-            Component {
-              Type          SignalMux
-              Name          "CMux"
-              Show          off
-              Position      [320, 60]
-              Direction     right
-              Flipped       off
-              Parameter {
-                Variable      "Width"
-                Value         "2"
-                Show          off
-              }
-            }
-            Component {
-              Type          CurrentSource
-              Name          "I1"
-              Show          on
-              Position      [200, 150]
-              Direction     down
-              Flipped       on
-              Parameter {
-                Variable      "DiscretizationBehavior"
-                Value         "2"
-                Show          off
-              }
-              Parameter {
-                Variable      "StateSpaceInlining"
-                Value         "2"
-                Show          off
-              }
-            }
-            Component {
-              Type          Voltmeter
-              Name          "V1"
-              Show          on
-              Position      [260, 150]
-              Direction     down
-              Flipped       on
-            }
-            Component {
-              Type          Function
-              Name          "Power"
-              Show          on
-              Position      [380, 60]
-              Direction     right
-              Flipped       off
-              Frame         [-20, -10; 20, 10]
-              LabelPosition [0, 13]
-              LabelAlign    up
-              Parameter {
-                Variable      "f(u)"
-                Value         "u[1]*u[2]"
-                Show          off
-              }
-            }
-            Component {
-              Type          Port
-              Name          "+"
-              Show          on
-              Position      [397, 105]
-              Direction     right
-              Flipped       on
-              Parameter {
-                Variable      "Index"
-                Value         "1"
-                Show          on
-              }
-              Parameter {
-                Variable      "Width"
-                Value         "-1"
-                Show          off
-              }
-            }
-            Component {
-              Type          Port
-              Name          "-"
-              Show          on
-              Position      [397, 190]
-              Direction     right
-              Flipped       on
-              Parameter {
-                Variable      "Index"
-                Value         "2"
-                Show          on
-              }
-              Parameter {
-                Variable      "Width"
-                Value         "-1"
-                Show          off
-              }
-            }
-            Component {
-              Type          Input
-              Name          "Sun"
-              Show          on
-              Position      [40, 155]
-              Direction     right
-              Flipped       off
-              Parameter {
-                Variable      "Index"
-                Value         "3"
-                Show          on
-              }
-              Parameter {
-                Variable      "Width"
-                Value         "-1"
-                Show          off
-              }
-            }
-            Component {
-              Type          Function
-              Name          "1/num_panels"
-              Show          on
-              Position      [150, 55]
-              Direction     left
-              Flipped       off
-              Frame         [-20, -10; 20, 10]
-              LabelPosition [0, -13]
-              LabelAlign    down
-              Parameter {
-                Variable      "f(u)"
-                Value         "u[1]/n_ser"
-                Show          off
-              }
-            }
-            Component {
-              Type          Lookup2D
-              Name          "2D-Table"
-              Show          on
-              Position      [100, 150]
-              Direction     right
-              Flipped       off
-              Parameter {
-                Variable      "x"
-                Value         "[0:0.05:25]"
-                Show          off
-              }
-              Parameter {
-                Variable      "y"
-                Value         "[0:0.1:1]"
-                Show          off
-              }
-              Parameter {
-                Variable      "f(x,y)"
-                Value         "PV_I"
-                Show          off
-              }
-              Parameter {
-                Variable      "ZeroCrossingSignals"
-                Value         "1"
-                Show          off
-              }
-            }
-            Component {
-              Type          Gain
-              Name          "Gain"
-              Show          on
-              Position      [155, 150]
-              Direction     right
-              Flipped       off
-              Parameter {
-                Variable      "K"
-                Value         "n_par"
-                Show          off
-              }
-              Parameter {
-                Variable      "Multiplication"
-                Value         "1"
-                Show          off
-              }
-              Parameter {
-                Variable      "DataType"
-                Value         "11"
-                Show          off
-              }
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "I_PV"
-              SrcTerminal   3
-              Points        [295, 65]
-              DstComponent  "CMux"
-              DstTerminal   3
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "Sun"
-              SrcTerminal   1
-              DstComponent  "2D-Table"
-              DstTerminal   2
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "CMux"
-              SrcTerminal   1
-              DstComponent  "Power"
-              DstTerminal   1
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "1/num_panels"
-              SrcTerminal   2
-              Points        [60, 55; 60, 145]
-              DstComponent  "2D-Table"
-              DstTerminal   1
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "V1"
-              SrcTerminal   3
-              Points        [235, 150; 235, 55]
-              Branch {
-                DstComponent  "CMux"
-                DstTerminal   2
-              }
-              Branch {
-                DstComponent  "1/num_panels"
-                DstTerminal   1
-              }
-            }
-            Connection {
-              Type          Wire
-              SrcComponent  "I_PV"
-              SrcTerminal   1
-              Points        [260, 105]
-              Branch {
-                Points        [200, 105]
-                DstComponent  "I1"
-                DstTerminal   2
-              }
-              Branch {
-                DstComponent  "V1"
-                DstTerminal   1
-              }
-            }
-            Connection {
-              Type          Wire
-              SrcComponent  "V1"
-              SrcTerminal   2
-              Points        [260, 190]
-              Branch {
-                Points        [200, 190]
-                DstComponent  "I1"
-                DstTerminal   1
-              }
-              Branch {
-                Points        [355, 190]
-                Branch {
-                  DstComponent  "-"
-                  DstTerminal   1
-                }
-                Branch {
-                  DstComponent  "C1"
-                  DstTerminal   2
-                }
-              }
-            }
-            Connection {
-              Type          Wire
-              SrcComponent  "I_PV"
-              SrcTerminal   2
-              Points        [355, 105]
-              Branch {
-                DstComponent  "+"
-                DstTerminal   1
-              }
-              Branch {
-                DstComponent  "C1"
-                DstTerminal   1
-              }
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "2D-Table"
-              SrcTerminal   3
-              DstComponent  "Gain"
-              DstTerminal   1
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "Gain"
-              SrcTerminal   2
-              DstComponent  "I1"
-              DstTerminal   3
-            }
-          }
-          MaskProbe {
-            Name          "Voltage (V)"
-            Probe {
-              Component     "V1"
-              Path          ""
-              Signals       {"Measured voltage"}
-            }
-          }
-          MaskProbe {
-            Name          "Current (A)"
-            Probe {
-              Component     "I_PV"
-              Path          ""
-              Signals       {"Measured current"}
-            }
-          }
-          MaskProbe {
-            Name          "Power (W)"
-            Probe {
-              Component     "Power"
-              Path          ""
-              Signals       {"Output"}
-            }
-          }
-        }
-        Component {
-          Type          Subsystem
           Name          "3-Level\nIGBT\nConv.1"
           Show          off
           Position      [440, 230]
@@ -29964,6 +28303,1665 @@ Plecs {
           Direction     left
           Flipped       on
         }
+        Component {
+          Type          Subsystem
+          Name          "PV"
+          Show          on
+          Position      [780, 150]
+          Direction     left
+          Flipped       on
+          Frame         [-20, -10; 20, 10]
+          LabelPosition [0, 0]
+          SampleTime    "-1"
+          CodeGenDiscretizationMethod "2"
+          CodeGenTarget "Generic"
+          MaskType      "PV String"
+          MaskDescription "Models a PV string comprising BP365 65W modules."
+          MaskDisplay   "line([-10 0 10], [-20 -7 -20])"
+          MaskIconFrame on
+          MaskIconOpaque on
+          MaskIconRotates on
+          MaskInit      "load('pv_lookup_data_bp365.mat');\n"
+"PV_V = 0:0.05:25;\n"
+"PV_Sun = 0:0.1:1;\n"
+"PV_T = 0:25:50;"
+          Parameter {
+            Variable      "n"
+            Prompt        "Number of PV modules in string"
+            Type          FreeText
+            Value         "22"
+            Show          off
+            Tunable       off
+            TabName       ""
+          }
+          Parameter {
+            Variable      "llstrings"
+            Prompt        "Number of strings in parallel"
+            Type          FreeText
+            Value         "2"
+            Show          off
+            Tunable       off
+            TabName       ""
+          }
+          Terminal {
+            Type          Port
+            Position      [0, -25]
+            Direction     up
+          }
+          Terminal {
+            Type          Port
+            Position      [0, 25]
+            Direction     down
+          }
+          Terminal {
+            Type          Input
+            Position      [-10, -10]
+            Direction     left
+          }
+          Terminal {
+            Type          Input
+            Position      [-10, 10]
+            Direction     left
+          }
+          Schematic {
+            Location      [0, 23; 1680, 955]
+            ZoomFactor    3.36578
+            SliderPosition [0, 0]
+            ShowBrowser   off
+            BrowserWidth  100
+            Component {
+              Type          Ammeter
+              Name          "I_PV"
+              Show          off
+              Position      [275, 85]
+              Direction     left
+              Flipped       off
+            }
+            Component {
+              Type          SignalMux
+              Name          "CMux"
+              Show          off
+              Position      [295, 40]
+              Direction     right
+              Flipped       off
+              Parameter {
+                Variable      "Width"
+                Value         "2"
+                Show          off
+              }
+            }
+            Component {
+              Type          CurrentSource
+              Name          "I1"
+              Show          on
+              Position      [160, 125]
+              Direction     down
+              Flipped       on
+              Parameter {
+                Variable      "DiscretizationBehavior"
+                Value         "1"
+                Show          off
+              }
+              Parameter {
+                Variable      "StateSpaceInlining"
+                Value         "2"
+                Show          off
+              }
+            }
+            Component {
+              Type          Voltmeter
+              Name          "V1"
+              Show          on
+              Position      [255, 125]
+              Direction     down
+              Flipped       on
+            }
+            Component {
+              Type          Function
+              Name          "Power"
+              Show          on
+              Position      [340, 40]
+              Direction     right
+              Flipped       off
+              Frame         [-20, -10; 20, 10]
+              LabelPosition [0, 13]
+              LabelAlign    up
+              Parameter {
+                Variable      "f(u)"
+                Value         "u[1]*u[2]"
+                Show          off
+              }
+            }
+            Component {
+              Type          Port
+              Name          "+"
+              Show          on
+              Position      [337, 85]
+              Direction     right
+              Flipped       on
+              Parameter {
+                Variable      "Index"
+                Value         "1"
+                Show          on
+              }
+              Parameter {
+                Variable      "Width"
+                Value         "-1"
+                Show          off
+              }
+            }
+            Component {
+              Type          Port
+              Name          "-"
+              Show          on
+              Position      [337, 165]
+              Direction     right
+              Flipped       on
+              Parameter {
+                Variable      "Index"
+                Value         "2"
+                Show          on
+              }
+              Parameter {
+                Variable      "Width"
+                Value         "-1"
+                Show          off
+              }
+            }
+            Component {
+              Type          Input
+              Name          "Sun"
+              Show          on
+              Position      [45, 125]
+              Direction     right
+              Flipped       off
+              Parameter {
+                Variable      "Index"
+                Value         "3"
+                Show          on
+              }
+              Parameter {
+                Variable      "Width"
+                Value         "-1"
+                Show          off
+              }
+            }
+            Component {
+              Type          Function
+              Name          "1/num_panels"
+              Show          on
+              Position      [110, 75]
+              Direction     left
+              Flipped       off
+              Frame         [-20, -10; 20, 10]
+              LabelPosition [0, -13]
+              LabelAlign    down
+              Parameter {
+                Variable      "f(u)"
+                Value         "u[1]/n"
+                Show          off
+              }
+            }
+            Component {
+              Type          Lookup3D
+              Name          "3D-Table"
+              Show          on
+              Position      [110, 125]
+              Direction     right
+              Flipped       off
+              Parameter {
+                Variable      "x"
+                Value         "PV_V"
+                Show          off
+              }
+              Parameter {
+                Variable      "y"
+                Value         "PV_Sun"
+                Show          off
+              }
+              Parameter {
+                Variable      "z"
+                Value         "PV_T"
+                Show          off
+              }
+              Parameter {
+                Variable      "f(x,y,z)"
+                Value         "Isurf_BP365_T25*llstrings"
+                Show          off
+              }
+              Parameter {
+                Variable      "ZeroCrossingSignals"
+                Value         "1"
+                Show          off
+              }
+            }
+            Component {
+              Type          Input
+              Name          "T"
+              Show          on
+              Position      [45, 155]
+              Direction     right
+              Flipped       off
+              Parameter {
+                Variable      "Index"
+                Value         "4"
+                Show          on
+              }
+              Parameter {
+                Variable      "Width"
+                Value         "-1"
+                Show          off
+              }
+            }
+            Component {
+              Type          Resistor
+              Name          "R1"
+              Show          off
+              Position      [305, 125]
+              Direction     up
+              Flipped       off
+              Parameter {
+                Variable      "R"
+                Value         "380^2/(3000*1e-3)"
+                Show          off
+              }
+            }
+            Connection {
+              Type          Wire
+              SrcComponent  "I_PV"
+              SrcTerminal   1
+              Points        [255, 85]
+              Branch {
+                Points        [160, 85]
+                DstComponent  "I1"
+                DstTerminal   2
+              }
+              Branch {
+                DstComponent  "V1"
+                DstTerminal   1
+              }
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "I_PV"
+              SrcTerminal   3
+              Points        [275, 45]
+              DstComponent  "CMux"
+              DstTerminal   3
+            }
+            Connection {
+              Type          Wire
+              SrcComponent  "V1"
+              SrcTerminal   2
+              Points        [255, 165]
+              Branch {
+                Points        [160, 165]
+                DstComponent  "I1"
+                DstTerminal   1
+              }
+              Branch {
+                Points        [305, 165]
+                Branch {
+                  DstComponent  "-"
+                  DstTerminal   1
+                }
+                Branch {
+                  DstComponent  "R1"
+                  DstTerminal   2
+                }
+              }
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "Sun"
+              SrcTerminal   1
+              DstComponent  "3D-Table"
+              DstTerminal   2
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "CMux"
+              SrcTerminal   1
+              DstComponent  "Power"
+              DstTerminal   1
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "1/num_panels"
+              SrcTerminal   2
+              Points        [70, 75; 70, 115]
+              DstComponent  "3D-Table"
+              DstTerminal   1
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "T"
+              SrcTerminal   1
+              Points        [70, 155; 70, 135]
+              DstComponent  "3D-Table"
+              DstTerminal   3
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "V1"
+              SrcTerminal   3
+              Points        [225, 125; 225, 75]
+              Branch {
+                Points        [225, 35]
+                DstComponent  "CMux"
+                DstTerminal   2
+              }
+              Branch {
+                DstComponent  "1/num_panels"
+                DstTerminal   1
+              }
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "3D-Table"
+              SrcTerminal   4
+              DstComponent  "I1"
+              DstTerminal   3
+            }
+            Connection {
+              Type          Wire
+              SrcComponent  "I_PV"
+              SrcTerminal   2
+              Points        [305, 85]
+              Branch {
+                DstComponent  "+"
+                DstTerminal   1
+              }
+              Branch {
+                DstComponent  "R1"
+                DstTerminal   1
+              }
+            }
+          }
+          MaskProbe {
+            Name          "PV Voltage"
+            Probe {
+              Component     "V1"
+              Path          ""
+              Signals       {"Measured voltage"}
+            }
+          }
+          MaskProbe {
+            Name          "PV Current"
+            Probe {
+              Component     "I_PV"
+              Path          ""
+              Signals       {"Measured current"}
+            }
+          }
+          MaskProbe {
+            Name          "PV Power"
+            Probe {
+              Component     "Power"
+              Path          ""
+              Signals       {"Output"}
+            }
+          }
+        }
+        Component {
+          Type          Subsystem
+          Name          "PV1"
+          Show          on
+          Position      [780, 210]
+          Direction     right
+          Flipped       off
+          Frame         [-20, -10; 20, 10]
+          LabelPosition [0, 0]
+          SampleTime    "-1"
+          CodeGenDiscretizationMethod "2"
+          CodeGenTarget "Generic"
+          MaskType      "PV String"
+          MaskDescription "Models a PV string comprising BP365 65W modules."
+          MaskDisplay   "line([-10 0 10], [-20 -7 -20])"
+          MaskIconFrame on
+          MaskIconOpaque on
+          MaskIconRotates on
+          MaskInit      "load('pv_lookup_data_bp365.mat');\n"
+"PV_V = 0:0.05:25;\n"
+"PV_Sun = 0:0.1:1;\n"
+"PV_T = 0:25:50;"
+          Parameter {
+            Variable      "n"
+            Prompt        "Number of PV modules in string"
+            Type          FreeText
+            Value         "22"
+            Show          off
+            Tunable       off
+            TabName       ""
+          }
+          Parameter {
+            Variable      "llstrings"
+            Prompt        "Number of strings in parallel"
+            Type          FreeText
+            Value         "2"
+            Show          off
+            Tunable       off
+            TabName       ""
+          }
+          Terminal {
+            Type          Port
+            Position      [0, -25]
+            Direction     up
+          }
+          Terminal {
+            Type          Port
+            Position      [0, 25]
+            Direction     down
+          }
+          Terminal {
+            Type          Input
+            Position      [-10, -10]
+            Direction     left
+          }
+          Terminal {
+            Type          Input
+            Position      [-10, 10]
+            Direction     left
+          }
+          Schematic {
+            Location      [0, 23; 1680, 955]
+            ZoomFactor    3.36578
+            SliderPosition [0, 0]
+            ShowBrowser   off
+            BrowserWidth  100
+            Component {
+              Type          Ammeter
+              Name          "I_PV"
+              Show          off
+              Position      [275, 85]
+              Direction     left
+              Flipped       off
+            }
+            Component {
+              Type          SignalMux
+              Name          "CMux"
+              Show          off
+              Position      [295, 40]
+              Direction     right
+              Flipped       off
+              Parameter {
+                Variable      "Width"
+                Value         "2"
+                Show          off
+              }
+            }
+            Component {
+              Type          CurrentSource
+              Name          "I1"
+              Show          on
+              Position      [160, 125]
+              Direction     down
+              Flipped       on
+              Parameter {
+                Variable      "DiscretizationBehavior"
+                Value         "1"
+                Show          off
+              }
+              Parameter {
+                Variable      "StateSpaceInlining"
+                Value         "2"
+                Show          off
+              }
+            }
+            Component {
+              Type          Voltmeter
+              Name          "V1"
+              Show          on
+              Position      [255, 125]
+              Direction     down
+              Flipped       on
+            }
+            Component {
+              Type          Function
+              Name          "Power"
+              Show          on
+              Position      [340, 40]
+              Direction     right
+              Flipped       off
+              Frame         [-20, -10; 20, 10]
+              LabelPosition [0, 13]
+              LabelAlign    up
+              Parameter {
+                Variable      "f(u)"
+                Value         "u[1]*u[2]"
+                Show          off
+              }
+            }
+            Component {
+              Type          Port
+              Name          "+"
+              Show          on
+              Position      [337, 85]
+              Direction     right
+              Flipped       on
+              Parameter {
+                Variable      "Index"
+                Value         "1"
+                Show          on
+              }
+              Parameter {
+                Variable      "Width"
+                Value         "-1"
+                Show          off
+              }
+            }
+            Component {
+              Type          Port
+              Name          "-"
+              Show          on
+              Position      [337, 165]
+              Direction     right
+              Flipped       on
+              Parameter {
+                Variable      "Index"
+                Value         "2"
+                Show          on
+              }
+              Parameter {
+                Variable      "Width"
+                Value         "-1"
+                Show          off
+              }
+            }
+            Component {
+              Type          Input
+              Name          "Sun"
+              Show          on
+              Position      [45, 125]
+              Direction     right
+              Flipped       off
+              Parameter {
+                Variable      "Index"
+                Value         "3"
+                Show          on
+              }
+              Parameter {
+                Variable      "Width"
+                Value         "-1"
+                Show          off
+              }
+            }
+            Component {
+              Type          Function
+              Name          "1/num_panels"
+              Show          on
+              Position      [110, 75]
+              Direction     left
+              Flipped       off
+              Frame         [-20, -10; 20, 10]
+              LabelPosition [0, -13]
+              LabelAlign    down
+              Parameter {
+                Variable      "f(u)"
+                Value         "u[1]/n"
+                Show          off
+              }
+            }
+            Component {
+              Type          Lookup3D
+              Name          "3D-Table"
+              Show          on
+              Position      [110, 125]
+              Direction     right
+              Flipped       off
+              Parameter {
+                Variable      "x"
+                Value         "PV_V"
+                Show          off
+              }
+              Parameter {
+                Variable      "y"
+                Value         "PV_Sun"
+                Show          off
+              }
+              Parameter {
+                Variable      "z"
+                Value         "PV_T"
+                Show          off
+              }
+              Parameter {
+                Variable      "f(x,y,z)"
+                Value         "Isurf_BP365_T25*llstrings"
+                Show          off
+              }
+              Parameter {
+                Variable      "ZeroCrossingSignals"
+                Value         "1"
+                Show          off
+              }
+            }
+            Component {
+              Type          Input
+              Name          "T"
+              Show          on
+              Position      [45, 155]
+              Direction     right
+              Flipped       off
+              Parameter {
+                Variable      "Index"
+                Value         "4"
+                Show          on
+              }
+              Parameter {
+                Variable      "Width"
+                Value         "-1"
+                Show          off
+              }
+            }
+            Component {
+              Type          Resistor
+              Name          "R1"
+              Show          off
+              Position      [305, 125]
+              Direction     up
+              Flipped       off
+              Parameter {
+                Variable      "R"
+                Value         "380^2/(3000*1e-3)"
+                Show          off
+              }
+            }
+            Connection {
+              Type          Wire
+              SrcComponent  "I_PV"
+              SrcTerminal   1
+              Points        [255, 85]
+              Branch {
+                Points        [160, 85]
+                DstComponent  "I1"
+                DstTerminal   2
+              }
+              Branch {
+                DstComponent  "V1"
+                DstTerminal   1
+              }
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "I_PV"
+              SrcTerminal   3
+              Points        [275, 45]
+              DstComponent  "CMux"
+              DstTerminal   3
+            }
+            Connection {
+              Type          Wire
+              SrcComponent  "V1"
+              SrcTerminal   2
+              Points        [255, 165]
+              Branch {
+                Points        [160, 165]
+                DstComponent  "I1"
+                DstTerminal   1
+              }
+              Branch {
+                Points        [305, 165]
+                Branch {
+                  DstComponent  "-"
+                  DstTerminal   1
+                }
+                Branch {
+                  DstComponent  "R1"
+                  DstTerminal   2
+                }
+              }
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "Sun"
+              SrcTerminal   1
+              DstComponent  "3D-Table"
+              DstTerminal   2
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "CMux"
+              SrcTerminal   1
+              DstComponent  "Power"
+              DstTerminal   1
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "1/num_panels"
+              SrcTerminal   2
+              Points        [70, 75; 70, 115]
+              DstComponent  "3D-Table"
+              DstTerminal   1
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "T"
+              SrcTerminal   1
+              Points        [70, 155; 70, 135]
+              DstComponent  "3D-Table"
+              DstTerminal   3
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "V1"
+              SrcTerminal   3
+              Points        [225, 125; 225, 75]
+              Branch {
+                Points        [225, 35]
+                DstComponent  "CMux"
+                DstTerminal   2
+              }
+              Branch {
+                DstComponent  "1/num_panels"
+                DstTerminal   1
+              }
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "3D-Table"
+              SrcTerminal   4
+              DstComponent  "I1"
+              DstTerminal   3
+            }
+            Connection {
+              Type          Wire
+              SrcComponent  "I_PV"
+              SrcTerminal   2
+              Points        [305, 85]
+              Branch {
+                DstComponent  "+"
+                DstTerminal   1
+              }
+              Branch {
+                DstComponent  "R1"
+                DstTerminal   1
+              }
+            }
+          }
+          MaskProbe {
+            Name          "PV Voltage"
+            Probe {
+              Component     "V1"
+              Path          ""
+              Signals       {"Measured voltage"}
+            }
+          }
+          MaskProbe {
+            Name          "PV Current"
+            Probe {
+              Component     "I_PV"
+              Path          ""
+              Signals       {"Measured current"}
+            }
+          }
+          MaskProbe {
+            Name          "PV Power"
+            Probe {
+              Component     "Power"
+              Path          ""
+              Signals       {"Output"}
+            }
+          }
+        }
+        Component {
+          Type          Constant
+          Name          base64 "VGVtcCBbMDo1MF0gwrpD"
+          Show          on
+          Position      [790, 350]
+          Direction     right
+          Flipped       on
+          Frame         [-10, -10; 10, 10]
+          LabelPosition [0, 13]
+          LabelAlign    up
+          Parameter {
+            Variable      "Value"
+            Value         "25"
+            Show          off
+          }
+          Parameter {
+            Variable      "DataType"
+            Value         "10"
+            Show          off
+          }
+        }
+        Component {
+          Type          PulseGenerator
+          Name          "Irradiance"
+          Show          on
+          Position      [905, 255]
+          Direction     right
+          Flipped       on
+          Parameter {
+            Variable      "Hi"
+            Value         "1"
+            Show          off
+          }
+          Parameter {
+            Variable      "Lo"
+            Value         "0.7"
+            Show          off
+          }
+          Parameter {
+            Variable      "f"
+            Value         "0.25"
+            Show          off
+          }
+          Parameter {
+            Variable      "DutyCycle"
+            Value         "0.5"
+            Show          off
+          }
+          Parameter {
+            Variable      "Delay"
+            Value         "0"
+            Show          off
+          }
+          Parameter {
+            Variable      "DataType"
+            Value         "10"
+            Show          off
+          }
+        }
+        Component {
+          Type          Subsystem
+          Name          "PV2"
+          Show          on
+          Position      [780, 250]
+          Direction     left
+          Flipped       on
+          Frame         [-20, -10; 20, 10]
+          LabelPosition [0, 0]
+          SampleTime    "-1"
+          CodeGenDiscretizationMethod "2"
+          CodeGenTarget "Generic"
+          MaskType      "PV String"
+          MaskDescription "Models a PV string comprising BP365 65W modules."
+          MaskDisplay   "line([-10 0 10], [-20 -7 -20])"
+          MaskIconFrame on
+          MaskIconOpaque on
+          MaskIconRotates on
+          MaskInit      "load('pv_lookup_data_bp365.mat');\n"
+"PV_V = 0:0.05:25;\n"
+"PV_Sun = 0:0.1:1;\n"
+"PV_T = 0:25:50;"
+          Parameter {
+            Variable      "n"
+            Prompt        "Number of PV modules in string"
+            Type          FreeText
+            Value         "22"
+            Show          off
+            Tunable       off
+            TabName       ""
+          }
+          Parameter {
+            Variable      "llstrings"
+            Prompt        "Number of strings in parallel"
+            Type          FreeText
+            Value         "2"
+            Show          off
+            Tunable       off
+            TabName       ""
+          }
+          Terminal {
+            Type          Port
+            Position      [0, -25]
+            Direction     up
+          }
+          Terminal {
+            Type          Port
+            Position      [0, 25]
+            Direction     down
+          }
+          Terminal {
+            Type          Input
+            Position      [-10, -10]
+            Direction     left
+          }
+          Terminal {
+            Type          Input
+            Position      [-10, 10]
+            Direction     left
+          }
+          Schematic {
+            Location      [0, 23; 1680, 955]
+            ZoomFactor    3.36578
+            SliderPosition [0, 0]
+            ShowBrowser   off
+            BrowserWidth  100
+            Component {
+              Type          Ammeter
+              Name          "I_PV"
+              Show          off
+              Position      [275, 85]
+              Direction     left
+              Flipped       off
+            }
+            Component {
+              Type          SignalMux
+              Name          "CMux"
+              Show          off
+              Position      [295, 40]
+              Direction     right
+              Flipped       off
+              Parameter {
+                Variable      "Width"
+                Value         "2"
+                Show          off
+              }
+            }
+            Component {
+              Type          CurrentSource
+              Name          "I1"
+              Show          on
+              Position      [160, 125]
+              Direction     down
+              Flipped       on
+              Parameter {
+                Variable      "DiscretizationBehavior"
+                Value         "1"
+                Show          off
+              }
+              Parameter {
+                Variable      "StateSpaceInlining"
+                Value         "2"
+                Show          off
+              }
+            }
+            Component {
+              Type          Voltmeter
+              Name          "V1"
+              Show          on
+              Position      [255, 125]
+              Direction     down
+              Flipped       on
+            }
+            Component {
+              Type          Function
+              Name          "Power"
+              Show          on
+              Position      [340, 40]
+              Direction     right
+              Flipped       off
+              Frame         [-20, -10; 20, 10]
+              LabelPosition [0, 13]
+              LabelAlign    up
+              Parameter {
+                Variable      "f(u)"
+                Value         "u[1]*u[2]"
+                Show          off
+              }
+            }
+            Component {
+              Type          Port
+              Name          "+"
+              Show          on
+              Position      [337, 85]
+              Direction     right
+              Flipped       on
+              Parameter {
+                Variable      "Index"
+                Value         "1"
+                Show          on
+              }
+              Parameter {
+                Variable      "Width"
+                Value         "-1"
+                Show          off
+              }
+            }
+            Component {
+              Type          Port
+              Name          "-"
+              Show          on
+              Position      [337, 165]
+              Direction     right
+              Flipped       on
+              Parameter {
+                Variable      "Index"
+                Value         "2"
+                Show          on
+              }
+              Parameter {
+                Variable      "Width"
+                Value         "-1"
+                Show          off
+              }
+            }
+            Component {
+              Type          Input
+              Name          "Sun"
+              Show          on
+              Position      [45, 125]
+              Direction     right
+              Flipped       off
+              Parameter {
+                Variable      "Index"
+                Value         "3"
+                Show          on
+              }
+              Parameter {
+                Variable      "Width"
+                Value         "-1"
+                Show          off
+              }
+            }
+            Component {
+              Type          Function
+              Name          "1/num_panels"
+              Show          on
+              Position      [110, 75]
+              Direction     left
+              Flipped       off
+              Frame         [-20, -10; 20, 10]
+              LabelPosition [0, -13]
+              LabelAlign    down
+              Parameter {
+                Variable      "f(u)"
+                Value         "u[1]/n"
+                Show          off
+              }
+            }
+            Component {
+              Type          Lookup3D
+              Name          "3D-Table"
+              Show          on
+              Position      [110, 125]
+              Direction     right
+              Flipped       off
+              Parameter {
+                Variable      "x"
+                Value         "PV_V"
+                Show          off
+              }
+              Parameter {
+                Variable      "y"
+                Value         "PV_Sun"
+                Show          off
+              }
+              Parameter {
+                Variable      "z"
+                Value         "PV_T"
+                Show          off
+              }
+              Parameter {
+                Variable      "f(x,y,z)"
+                Value         "Isurf_BP365_T25*llstrings"
+                Show          off
+              }
+              Parameter {
+                Variable      "ZeroCrossingSignals"
+                Value         "1"
+                Show          off
+              }
+            }
+            Component {
+              Type          Input
+              Name          "T"
+              Show          on
+              Position      [45, 155]
+              Direction     right
+              Flipped       off
+              Parameter {
+                Variable      "Index"
+                Value         "4"
+                Show          on
+              }
+              Parameter {
+                Variable      "Width"
+                Value         "-1"
+                Show          off
+              }
+            }
+            Component {
+              Type          Resistor
+              Name          "R1"
+              Show          off
+              Position      [305, 125]
+              Direction     up
+              Flipped       off
+              Parameter {
+                Variable      "R"
+                Value         "380^2/(3000*1e-3)"
+                Show          off
+              }
+            }
+            Connection {
+              Type          Wire
+              SrcComponent  "I_PV"
+              SrcTerminal   1
+              Points        [255, 85]
+              Branch {
+                Points        [160, 85]
+                DstComponent  "I1"
+                DstTerminal   2
+              }
+              Branch {
+                DstComponent  "V1"
+                DstTerminal   1
+              }
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "I_PV"
+              SrcTerminal   3
+              Points        [275, 45]
+              DstComponent  "CMux"
+              DstTerminal   3
+            }
+            Connection {
+              Type          Wire
+              SrcComponent  "V1"
+              SrcTerminal   2
+              Points        [255, 165]
+              Branch {
+                Points        [160, 165]
+                DstComponent  "I1"
+                DstTerminal   1
+              }
+              Branch {
+                Points        [305, 165]
+                Branch {
+                  DstComponent  "-"
+                  DstTerminal   1
+                }
+                Branch {
+                  DstComponent  "R1"
+                  DstTerminal   2
+                }
+              }
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "Sun"
+              SrcTerminal   1
+              DstComponent  "3D-Table"
+              DstTerminal   2
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "CMux"
+              SrcTerminal   1
+              DstComponent  "Power"
+              DstTerminal   1
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "1/num_panels"
+              SrcTerminal   2
+              Points        [70, 75; 70, 115]
+              DstComponent  "3D-Table"
+              DstTerminal   1
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "T"
+              SrcTerminal   1
+              Points        [70, 155; 70, 135]
+              DstComponent  "3D-Table"
+              DstTerminal   3
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "V1"
+              SrcTerminal   3
+              Points        [225, 125; 225, 75]
+              Branch {
+                Points        [225, 35]
+                DstComponent  "CMux"
+                DstTerminal   2
+              }
+              Branch {
+                DstComponent  "1/num_panels"
+                DstTerminal   1
+              }
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "3D-Table"
+              SrcTerminal   4
+              DstComponent  "I1"
+              DstTerminal   3
+            }
+            Connection {
+              Type          Wire
+              SrcComponent  "I_PV"
+              SrcTerminal   2
+              Points        [305, 85]
+              Branch {
+                DstComponent  "+"
+                DstTerminal   1
+              }
+              Branch {
+                DstComponent  "R1"
+                DstTerminal   1
+              }
+            }
+          }
+          MaskProbe {
+            Name          "PV Voltage"
+            Probe {
+              Component     "V1"
+              Path          ""
+              Signals       {"Measured voltage"}
+            }
+          }
+          MaskProbe {
+            Name          "PV Current"
+            Probe {
+              Component     "I_PV"
+              Path          ""
+              Signals       {"Measured current"}
+            }
+          }
+          MaskProbe {
+            Name          "PV Power"
+            Probe {
+              Component     "Power"
+              Path          ""
+              Signals       {"Output"}
+            }
+          }
+        }
+        Component {
+          Type          Subsystem
+          Name          "PV3"
+          Show          on
+          Position      [780, 310]
+          Direction     right
+          Flipped       off
+          Frame         [-20, -10; 20, 10]
+          LabelPosition [0, 0]
+          SampleTime    "-1"
+          CodeGenDiscretizationMethod "2"
+          CodeGenTarget "Generic"
+          MaskType      "PV String"
+          MaskDescription "Models a PV string comprising BP365 65W modules."
+          MaskDisplay   "line([-10 0 10], [-20 -7 -20])"
+          MaskIconFrame on
+          MaskIconOpaque on
+          MaskIconRotates on
+          MaskInit      "load('pv_lookup_data_bp365.mat');\n"
+"PV_V = 0:0.05:25;\n"
+"PV_Sun = 0:0.1:1;\n"
+"PV_T = 0:25:50;"
+          Parameter {
+            Variable      "n"
+            Prompt        "Number of PV modules in string"
+            Type          FreeText
+            Value         "22"
+            Show          off
+            Tunable       off
+            TabName       ""
+          }
+          Parameter {
+            Variable      "llstrings"
+            Prompt        "Number of strings in parallel"
+            Type          FreeText
+            Value         "2"
+            Show          off
+            Tunable       off
+            TabName       ""
+          }
+          Terminal {
+            Type          Port
+            Position      [0, -25]
+            Direction     up
+          }
+          Terminal {
+            Type          Port
+            Position      [0, 25]
+            Direction     down
+          }
+          Terminal {
+            Type          Input
+            Position      [-10, -10]
+            Direction     left
+          }
+          Terminal {
+            Type          Input
+            Position      [-10, 10]
+            Direction     left
+          }
+          Schematic {
+            Location      [0, 23; 1680, 955]
+            ZoomFactor    3.36578
+            SliderPosition [0, 0]
+            ShowBrowser   off
+            BrowserWidth  100
+            Component {
+              Type          Ammeter
+              Name          "I_PV"
+              Show          off
+              Position      [275, 85]
+              Direction     left
+              Flipped       off
+            }
+            Component {
+              Type          SignalMux
+              Name          "CMux"
+              Show          off
+              Position      [295, 40]
+              Direction     right
+              Flipped       off
+              Parameter {
+                Variable      "Width"
+                Value         "2"
+                Show          off
+              }
+            }
+            Component {
+              Type          CurrentSource
+              Name          "I1"
+              Show          on
+              Position      [160, 125]
+              Direction     down
+              Flipped       on
+              Parameter {
+                Variable      "DiscretizationBehavior"
+                Value         "1"
+                Show          off
+              }
+              Parameter {
+                Variable      "StateSpaceInlining"
+                Value         "2"
+                Show          off
+              }
+            }
+            Component {
+              Type          Voltmeter
+              Name          "V1"
+              Show          on
+              Position      [255, 125]
+              Direction     down
+              Flipped       on
+            }
+            Component {
+              Type          Function
+              Name          "Power"
+              Show          on
+              Position      [340, 40]
+              Direction     right
+              Flipped       off
+              Frame         [-20, -10; 20, 10]
+              LabelPosition [0, 13]
+              LabelAlign    up
+              Parameter {
+                Variable      "f(u)"
+                Value         "u[1]*u[2]"
+                Show          off
+              }
+            }
+            Component {
+              Type          Port
+              Name          "+"
+              Show          on
+              Position      [337, 85]
+              Direction     right
+              Flipped       on
+              Parameter {
+                Variable      "Index"
+                Value         "1"
+                Show          on
+              }
+              Parameter {
+                Variable      "Width"
+                Value         "-1"
+                Show          off
+              }
+            }
+            Component {
+              Type          Port
+              Name          "-"
+              Show          on
+              Position      [337, 165]
+              Direction     right
+              Flipped       on
+              Parameter {
+                Variable      "Index"
+                Value         "2"
+                Show          on
+              }
+              Parameter {
+                Variable      "Width"
+                Value         "-1"
+                Show          off
+              }
+            }
+            Component {
+              Type          Input
+              Name          "Sun"
+              Show          on
+              Position      [45, 125]
+              Direction     right
+              Flipped       off
+              Parameter {
+                Variable      "Index"
+                Value         "3"
+                Show          on
+              }
+              Parameter {
+                Variable      "Width"
+                Value         "-1"
+                Show          off
+              }
+            }
+            Component {
+              Type          Function
+              Name          "1/num_panels"
+              Show          on
+              Position      [110, 75]
+              Direction     left
+              Flipped       off
+              Frame         [-20, -10; 20, 10]
+              LabelPosition [0, -13]
+              LabelAlign    down
+              Parameter {
+                Variable      "f(u)"
+                Value         "u[1]/n"
+                Show          off
+              }
+            }
+            Component {
+              Type          Lookup3D
+              Name          "3D-Table"
+              Show          on
+              Position      [110, 125]
+              Direction     right
+              Flipped       off
+              Parameter {
+                Variable      "x"
+                Value         "PV_V"
+                Show          off
+              }
+              Parameter {
+                Variable      "y"
+                Value         "PV_Sun"
+                Show          off
+              }
+              Parameter {
+                Variable      "z"
+                Value         "PV_T"
+                Show          off
+              }
+              Parameter {
+                Variable      "f(x,y,z)"
+                Value         "Isurf_BP365_T25*llstrings"
+                Show          off
+              }
+              Parameter {
+                Variable      "ZeroCrossingSignals"
+                Value         "1"
+                Show          off
+              }
+            }
+            Component {
+              Type          Input
+              Name          "T"
+              Show          on
+              Position      [45, 155]
+              Direction     right
+              Flipped       off
+              Parameter {
+                Variable      "Index"
+                Value         "4"
+                Show          on
+              }
+              Parameter {
+                Variable      "Width"
+                Value         "-1"
+                Show          off
+              }
+            }
+            Component {
+              Type          Resistor
+              Name          "R1"
+              Show          off
+              Position      [305, 125]
+              Direction     up
+              Flipped       off
+              Parameter {
+                Variable      "R"
+                Value         "380^2/(3000*1e-3)"
+                Show          off
+              }
+            }
+            Connection {
+              Type          Wire
+              SrcComponent  "I_PV"
+              SrcTerminal   1
+              Points        [255, 85]
+              Branch {
+                Points        [160, 85]
+                DstComponent  "I1"
+                DstTerminal   2
+              }
+              Branch {
+                DstComponent  "V1"
+                DstTerminal   1
+              }
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "I_PV"
+              SrcTerminal   3
+              Points        [275, 45]
+              DstComponent  "CMux"
+              DstTerminal   3
+            }
+            Connection {
+              Type          Wire
+              SrcComponent  "V1"
+              SrcTerminal   2
+              Points        [255, 165]
+              Branch {
+                Points        [160, 165]
+                DstComponent  "I1"
+                DstTerminal   1
+              }
+              Branch {
+                Points        [305, 165]
+                Branch {
+                  DstComponent  "-"
+                  DstTerminal   1
+                }
+                Branch {
+                  DstComponent  "R1"
+                  DstTerminal   2
+                }
+              }
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "Sun"
+              SrcTerminal   1
+              DstComponent  "3D-Table"
+              DstTerminal   2
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "CMux"
+              SrcTerminal   1
+              DstComponent  "Power"
+              DstTerminal   1
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "1/num_panels"
+              SrcTerminal   2
+              Points        [70, 75; 70, 115]
+              DstComponent  "3D-Table"
+              DstTerminal   1
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "T"
+              SrcTerminal   1
+              Points        [70, 155; 70, 135]
+              DstComponent  "3D-Table"
+              DstTerminal   3
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "V1"
+              SrcTerminal   3
+              Points        [225, 125; 225, 75]
+              Branch {
+                Points        [225, 35]
+                DstComponent  "CMux"
+                DstTerminal   2
+              }
+              Branch {
+                DstComponent  "1/num_panels"
+                DstTerminal   1
+              }
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "3D-Table"
+              SrcTerminal   4
+              DstComponent  "I1"
+              DstTerminal   3
+            }
+            Connection {
+              Type          Wire
+              SrcComponent  "I_PV"
+              SrcTerminal   2
+              Points        [305, 85]
+              Branch {
+                DstComponent  "+"
+                DstTerminal   1
+              }
+              Branch {
+                DstComponent  "R1"
+                DstTerminal   1
+              }
+            }
+          }
+          MaskProbe {
+            Name          "PV Voltage"
+            Probe {
+              Component     "V1"
+              Path          ""
+              Signals       {"Measured voltage"}
+            }
+          }
+          MaskProbe {
+            Name          "PV Current"
+            Probe {
+              Component     "I_PV"
+              Path          ""
+              Signals       {"Measured current"}
+            }
+          }
+          MaskProbe {
+            Name          "PV Power"
+            Probe {
+              Component     "Power"
+              Path          ""
+              Signals       {"Output"}
+            }
+          }
+        }
         Connection {
           Type          Wire
           Points        [80, 200; 80, 80]
@@ -30181,12 +30179,12 @@ Plecs {
             Branch {
               Points        [745, 310]
               Branch {
-                DstComponent  "PV4"
+                DstComponent  "PV3"
                 DstTerminal   2
               }
               Branch {
                 Points        [745, 250]
-                DstComponent  "PV3"
+                DstComponent  "PV2"
                 DstTerminal   2
               }
             }
@@ -30202,8 +30200,8 @@ Plecs {
         }
         Connection {
           Type          Wire
-          SrcComponent  "PV2"
-          SrcTerminal   2
+          SrcComponent  "PV1"
+          SrcTerminal   1
           Points        [815, 210]
           Branch {
             Points        [815, 230]
@@ -30221,26 +30219,26 @@ Plecs {
             Branch {
               Points        [815, 250]
               Branch {
-                DstComponent  "PV3"
+                DstComponent  "PV2"
                 DstTerminal   1
               }
               Branch {
                 Points        [815, 310]
-                DstComponent  "PV4"
+                DstComponent  "PV3"
                 DstTerminal   1
               }
             }
           }
           Branch {
             Points        [815, 150]
-            DstComponent  "PV1"
-            DstTerminal   2
+            DstComponent  "PV"
+            DstTerminal   1
           }
         }
         Connection {
           Type          Wire
-          SrcComponent  "PV2"
-          SrcTerminal   1
+          SrcComponent  "PV1"
+          SrcTerminal   2
           Points        [745, 210; 745, 150]
           Branch {
             Points        [725, 150]
@@ -30261,36 +30259,8 @@ Plecs {
             }
           }
           Branch {
-            DstComponent  "PV1"
-            DstTerminal   1
-          }
-        }
-        Connection {
-          Type          Signal
-          SrcComponent  "Sonnen-\neinstrahlung"
-          SrcTerminal   1
-          Points        [835, 230]
-          Branch {
-            Points        [835, 280; 780, 280]
-            Branch {
-              DstComponent  "PV3"
-              DstTerminal   3
-            }
-            Branch {
-              DstComponent  "PV4"
-              DstTerminal   3
-            }
-          }
-          Branch {
-            Points        [835, 180; 780, 180]
-            Branch {
-              DstComponent  "PV2"
-              DstTerminal   3
-            }
-            Branch {
-              DstComponent  "PV1"
-              DstTerminal   3
-            }
+            DstComponent  "PV"
+            DstTerminal   2
           }
         }
         Connection {
@@ -30491,6 +30461,62 @@ Plecs {
           Points        [440, 150]
           DstComponent  "3-Level\nIGBT\nConv.1"
           DstTerminal   5
+        }
+        Connection {
+          Type          Signal
+          SrcComponent  "Irradiance"
+          SrcTerminal   1
+          Points        [840, 255]
+          Branch {
+            Points        [840, 280; 790, 280]
+            Branch {
+              DstComponent  "PV2"
+              DstTerminal   3
+            }
+            Branch {
+              DstComponent  "PV3"
+              DstTerminal   3
+            }
+          }
+          Branch {
+            Points        [840, 180; 790, 180]
+            Branch {
+              DstComponent  "PV"
+              DstTerminal   3
+            }
+            Branch {
+              DstComponent  "PV1"
+              DstTerminal   3
+            }
+          }
+        }
+        Connection {
+          Type          Signal
+          SrcComponent  base64 "VGVtcCBbMDo1MF0gwrpD"
+          SrcTerminal   1
+          Points        [750, 350; 750, 280]
+          Branch {
+            Points        [770, 280]
+            Branch {
+              DstComponent  "PV2"
+              DstTerminal   4
+            }
+            Branch {
+              DstComponent  "PV3"
+              DstTerminal   4
+            }
+          }
+          Branch {
+            Points        [750, 180; 770, 180]
+            Branch {
+              DstComponent  "PV1"
+              DstTerminal   4
+            }
+            Branch {
+              DstComponent  "PV"
+              DstTerminal   4
+            }
+          }
         }
         Annotation {
           Name          "<html><body>\n<p>PE</p></body></html>"
